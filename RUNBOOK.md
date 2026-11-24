@@ -23,7 +23,25 @@ For each source in `sources.json` (`official`, `media`, `firms`):
    Mondaq: the United Arab Emirates section. **Never type a password or sign in.** If either site
    shows you as signed out, skip it and add a line to `notes`.
 4. Note for each candidate the title, URL, date and source.
-5. If a source can't be read at all, add one short line to `notes` and move on. Do not stop the run.
+   **The date must be the article's own publication date**, read from the article page
+   (`datePublished`, `article:published_time`, "Published: …"). A listing, feed or aggregator date
+   is not enough: in the test, 4 of 6 Lexology feed items had been published months earlier.
+   For VATupdate and other aggregators, prefer the original source if it is in the period.
+5. How to read the sources (proven in the test run of 24 Nov 2026):
+   - Use `scripts/scan.js` in Chrome (javascript tool) on a firm's site. It tries the WordPress REST API
+     first (exact dates), and otherwise crawls the news listing and reads each article's date.
+     Page state is lost on navigation, so paste the script again on each site.
+   - Media section/tag pages often have no dates or are stale. Use the URLs in `sources.json`
+     and read each article's date as above.
+   - Lexology: open `/mynewsfeed?d=YYYY-MM-DD` for each day of the period, keep MENA jurisdictions,
+     then check each article's real date on its page.
+   - International firms: their general insights pages rarely show Middle East content. Use a
+     Middle East / UAE listing if one is recorded in `sources.json`; otherwise rely on Lexology and
+     Legal 500 Intelligence for their regional articles. Office lists in site footers mention Dubai,
+     so require a real regional focus in the title or body.
+   - Tool output that contains a URL query string can be blocked. Strip `?…` from links,
+     or pass the id separately (e.g. the Lexology `g=` id).
+6. If a source can't be read at all, add one short line to `notes` and move on. Do not stop the run.
 
 ## 2. Select (at most 50 publications in total)
 Keep publications that:
@@ -36,6 +54,10 @@ Drop:
 - appointments, hires, promotions, lateral moves, new partners;
 - events outside the MENA region (also global articles with no MENA angle);
 - awards, rankings, firm self-promotion, webinars/event announcements, job posts;
+- personal-law and criminal pieces (family, traffic, personal loans, criminal cases), even on legal sections;
+- SEO-style "lawyer in Dubai" explainers with no new development (common on Lexology and Legal 500
+  Intelligence from small practices), unless nothing better covers the topic that week;
+- items published outside the period, even if a feed shows them inside it;
 - duplicates: the same news from several outlets. Keep the best source,
   and prefer the official one.
 

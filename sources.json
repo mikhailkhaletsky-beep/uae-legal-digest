@@ -11,7 +11,7 @@
       "slug": "fta",
       "name": "Federal Tax Authority",
       "url": "https://tax.gov.ae/en",
-      "news_url": null
+      "news_url": "https://tax.gov.ae/en/media.centre/news.aspx"
     },
     {
       "slug": "mof",
@@ -25,43 +25,56 @@
       "slug": "gulfnews",
       "name": "Gulf News",
       "url": "https://gulfnews.com",
-      "news_url": "https://gulfnews.com/topic/uae-corporate-tax"
+      "news_url": "https://gulfnews.com/business/tax-news",
+      "extra_urls": [
+        "https://gulfnews.com/business/corporate-tax"
+      ],
+      "note": "topic/ pages have no dates; use section pages and read each article date"
     },
     {
       "slug": "khaleejtimes",
       "name": "Khaleej Times",
       "url": "https://www.khaleejtimes.com",
-      "news_url": "https://www.khaleejtimes.com/business"
+      "news_url": "https://www.khaleejtimes.com/uae/legal",
+      "extra_urls": [
+        "https://www.khaleejtimes.com/business"
+      ],
+      "note": "uae/legal mixes personal/criminal law; keep only business-relevant"
     },
     {
       "slug": "thenational",
       "name": "The National",
       "url": "https://www.thenationalnews.com",
-      "news_url": "https://www.thenationalnews.com/tags/uae-tax"
+      "news_url": "https://www.thenationalnews.com/business/economy/",
+      "note": "tags/ pages are stale; article URLs contain the date"
     },
     {
       "slug": "arabianbusiness",
       "name": "Arabian Business",
       "url": "https://www.arabianbusiness.com",
-      "news_url": "https://www.arabianbusiness.com/tags/uae-tax"
+      "news_url": "https://www.arabianbusiness.com/tags/uae-tax",
+      "note": "tag pages and sitemaps lag; often nothing fresh"
     },
     {
       "slug": "gulfbusiness",
       "name": "Gulf Business",
       "url": "https://gulfbusiness.com",
-      "news_url": "https://gulfbusiness.com/section/legal"
+      "news_url": "https://gulfbusiness.com/section/legal",
+      "note": "section/legal not updated since 2025 — low value"
     },
     {
       "slug": "legalcommunitymena",
       "name": "Legal Community MENA",
       "url": "https://legalcommunitymena.com",
-      "news_url": "https://legalcommunitymena.com/news"
+      "news_url": "https://legalcommunitymena.com/news",
+      "note": "Chrome site permission was denied in test; mostly deals/moves"
     },
     {
       "slug": "lexis-me",
       "name": "LexisNexis Middle East",
       "url": "https://www.lexis.ae",
-      "news_url": "https://www.lexis.ae/news"
+      "news_url": "https://www.lexisnexis.com/blogs/ae-legal",
+      "note": "lexis.ae/news redirects here"
     },
     {
       "slug": "tr-insight-mena",
@@ -75,7 +88,7 @@
       "url": "https://www.mondaq.com",
       "news_url": "https://www.legal500.com/intelligence/united-arab-emirates",
       "browser": true,
-      "note": "mondaq.com/united-arab-emirates redirects here since Nov 2026; content readable without sign-in"
+      "note": "mondaq.com redirects to Legal 500 Intelligence. Many SEO-style posts by small practices (Leaders Advocates, Hassan Elhais) — include only if substantive"
     },
     {
       "slug": "lexology",
@@ -83,7 +96,7 @@
       "url": "https://www.lexology.com",
       "news_url": "https://www.lexology.com/mynewsfeed",
       "browser": true,
-      "note": "Personal newsfeed of the signed-in user; filter to United Arab Emirates"
+      "note": "Feed for a day: /mynewsfeed?d=YYYY-MM-DD. The feed date is NOT the publication date: open each article and use its datePublished. Feed depends on the user content preferences."
     },
     {
       "slug": "vatupdate",
@@ -95,13 +108,15 @@
       "slug": "orbitax",
       "name": "Orbitax Tax News",
       "url": "https://orbitax.com",
-      "news_url": "https://orbitax.com/news/country?tag=Untd+A+Emirates"
+      "news_url": "https://orbitax.com/news/country?tag=Untd+A+Emirates",
+      "note": "WebFetch fails; use Chrome"
     },
     {
       "slug": "taxathand",
       "name": "Deloitte tax@hand",
       "url": "https://www.taxathand.com",
-      "news_url": "https://www.taxathand.com/world-news/United-Arab-Emirates"
+      "news_url": null,
+      "note": "world-news/United-Arab-Emirates gives an error page; find the right UAE listing"
     }
   ],
   "firms": [
@@ -116,56 +131,59 @@
       "slug": "hadef",
       "name": "Hadef & Partners",
       "url": "https://www.hadefpartners.com",
-      "news_url": null,
+      "news_url": "https://hadefpartners.com/news-insights/insights/",
       "services_url": null
     },
     {
       "slug": "habib-al-mulla",
       "name": "Habib Al Mulla & Partners",
       "url": "https://habibalmulla.com",
-      "news_url": null,
-      "services_url": null
+      "news_url": "https://habibalmulla.com/latest-insights/",
+      "services_url": null,
+      "wordpress": true
     },
     {
       "slug": "hourani",
       "name": "Hourani & Partners",
-      "url": "https://www.houranipartners.com",
-      "news_url": null,
-      "services_url": null
+      "url": "https://houranipartners.com",
+      "news_url": "https://houranipartners.com/",
+      "services_url": null,
+      "note": "www. subdomain does not load; WordPress",
+      "wordpress": true
     },
     {
       "slug": "galadari",
       "name": "Galadari",
       "url": "https://www.galadarilaw.com",
-      "news_url": null,
+      "news_url": "https://galadarilaw.com/publications/",
       "services_url": null
     },
     {
       "slug": "bsa",
       "name": "BSA Law",
       "url": "https://bsalaw.com",
-      "news_url": null,
+      "news_url": "https://bsalaw.com/insights/",
       "services_url": null
     },
     {
       "slug": "afridi-angell",
       "name": "Afridi & Angell",
       "url": "https://www.afridi-angell.com",
-      "news_url": null,
+      "news_url": "https://afridi-angell.com/knowledge/",
       "services_url": null
     },
     {
       "slug": "inp",
       "name": "Ibrahim N Partners",
       "url": "https://inp.legal",
-      "news_url": null,
+      "news_url": "https://inp.legal/news-updates",
       "services_url": null
     },
     {
       "slug": "eptalex",
       "name": "Eptalex",
       "url": "https://www.eptalex.com",
-      "news_url": null,
+      "news_url": "https://uae.eptalex.com/all-publications",
       "services_url": null
     },
     {
@@ -196,7 +214,7 @@
       "slug": "clydeco",
       "name": "Clyde & Co",
       "url": "https://www.clydeco.com",
-      "news_url": null,
+      "news_url": "https://www.clydeco.com/en/insights",
       "services_url": null,
       "region_filter": "Middle East"
     },
@@ -299,7 +317,7 @@
       "slug": "pwc-me",
       "name": "PwC Middle East",
       "url": "https://www.pwc.com/m1/en.html",
-      "news_url": "https://www.pwc.com/m1/en/services/tax.html",
+      "news_url": "https://www.pwc.com/m1/en/services/tax/middle-east-tax-news-alerts.html",
       "services_url": null
     },
     {
@@ -329,7 +347,8 @@
       "name": "Dhruva / Ryan Middle East",
       "url": "https://dhruvaadvisors.com",
       "news_url": null,
-      "services_url": null
+      "services_url": null,
+      "note": "dhruvaadvisors.com is the India site with no dates; find the Middle East (Ryan) listing"
     },
     {
       "slug": "andersen-uae",
@@ -349,14 +368,14 @@
       "slug": "grantthornton-uae",
       "name": "Grant Thornton UAE",
       "url": "https://www.grantthornton.ae",
-      "news_url": null,
+      "news_url": "https://www.grantthornton.ae/insights/",
       "services_url": null
     },
     {
       "slug": "mmjs",
       "name": "MMJS Consulting",
       "url": "https://www.mmjs.co",
-      "news_url": null,
+      "news_url": "https://mmjs.co/insights",
       "services_url": null
     },
     {
@@ -370,8 +389,9 @@
       "slug": "willow",
       "name": "Willow Tax & Legal",
       "url": "https://willow.law",
-      "news_url": null,
-      "services_url": null
+      "news_url": "https://willow.law/",
+      "services_url": null,
+      "wordpress": true
     }
   ]
 }
