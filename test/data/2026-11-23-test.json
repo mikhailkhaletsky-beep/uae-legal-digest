@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-24",
+  "period": {"from": "2026-11-16", "to": "2026-11-22"},
+  "official": [
+    {"headline": "FTA и полиция Дубая подписали меморандум о сотрудничестве для повышения налоговой дисциплины", "url": "https://tax.gov.ae/en/media.centre/news/federal.tax.authority.and.dubai.police.strengthen.cooperation.to.promote.tax.compliance.aspx", "source": "Federal Tax Authority", "date": "2026-11-22", "topic": "Налоги"},
+    {"headline": "Минфин ОАЭ провёл форум по обмену налоговой информацией и международным стандартам прозрачности", "url": "https://mof.gov.ae/en/news/ministry-of-finance-hosts-tax-information-exchange-forum-to-reinforce-compliance-with-international-standards-and-promote-transparency/", "source": "Ministry of Finance UAE", "date": "2026-11-18", "topic": "Налоги"}
+  ],
+  "media": [
+    {"headline": "Трудовое право ОАЭ: может ли работник требовать частичной, гибкой или удалённой занятости", "url": "https://www.khaleejtimes.com/uae/legal/uae-law-can-employees-choose-remote-part-time-flexible-work", "source": "Khaleej Times", "date": "2026-11-22", "topic": "Трудовое право"},
+    {"headline": "Саудовская Аравия вводит 15% минимальный налог для крупных международных групп с 2027 года", "url": "https://gulfnews.com/business/tax-news/saudi-arabia-to-introduce-15-minimum-tax-on-multinational-companies-from-2027-1.500755589", "source": "Gulf News", "date": "2026-11-21", "topic": "Налоги"},
+    {"headline": "ОАЭ ограничили штрафы за нарушения в системе e-invoicing и упростили правила", "url": "https://www.vatupdate.com/2026/11/21/united-arab-emirates-revises-e-invoicing-penalties-with-caps-and-simplified-rules/", "source": "VATupdate", "date": "2026-11-21", "topic": "Налоги"},
+    {"headline": "НДС по затратам на прекращённый проект можно вернуть: разъяснение для ОАЭ", "url": "https://www.vatupdate.com/2026/11/21/uae-vat-refund-allowed-for-abandoned-project-costs/", "source": "VATupdate", "date": "2026-11-21", "topic": "Налоги"},
+    {"headline": "FTA: НДС не начисляется при переходе списанного автомобиля к страховщику", "url": "https://gulfnews.com/business/tax-news/no-vat-on-written-off-vehicles-transferred-to-insurers-fta-clarifies-1.500755013", "source": "Gulf News", "date": "2026-11-20", "topic": "Налоги"},
+    {"headline": "Обновлены правила НДС по составным поставкам, вычету входного налога и будущему e-invoicing", "url": "https://www.vatupdate.com/2026/11/20/uae-updates-vat-rules-on-composite-supplies-input-tax-and-future-e-invoicing/", "source": "VATupdate", "date": "2026-11-20", "topic": "Налоги"},
+    {"headline": "Удержания из зарплаты по трудовому законодательству ОАЭ: что допустимо", "url": "https://www.legal500.com/intelligence/united-arab-emirates/employment-and-hr/uae-labour-law-for-salary-deduction", "source": "Legal 500 Intelligence (бывш. Mondaq) — Leaders Advocates", "date": "2026-11-20", "topic": "Трудовое право"},
+    {"headline": "Персональная ответственность руководителей за регуляторные нарушения: практика DFSA и FSRA", "url": "https://www.lexology.com/library/detail.aspx?g=1114e1e8-7385-4958-a5a5-d81f39d56125", "source": "Lexology — Greenberg Traurig", "date": "2026-11-18", "topic": "Банковское право"},
+    {"headline": "FTA уточнила правила вычета входного НДС", "url": "https://www.vatupdate.com/2026/11/18/united-arab-emirates-clarifies-input-vat-deduction-rules-under-fta-guidance/", "source": "VATupdate", "date": "2026-11-18", "topic": "Налоги"},
+    {"headline": "Изменения НДС 2026 года определят налоговые споры следующего года", "url": "https://www.legal500.com/intelligence/united-arab-emirates/tax/the-2026-vat-changes-will-decide-next-years-tax-disputes", "source": "Legal 500 Intelligence (бывш. Mondaq) — BLK Partners", "date": "2026-11-17", "topic": "Налоги"},
+    {"headline": "Совместные предприятия в Бахрейне, ч. 1: что согласовать до подписания", "url": "https://www.lexology.com/library/detail.aspx?g=40be5281-4d21-4c22-aeef-48ea721910fe", "source": "Lexology — Charles Russell Speechlys", "date": "2026-11-16", "topic": "Корпоративное право"}
+  ],
+  "firms": [
+    {"headline": "FTA уточнила требования к проверке поставщиков для вычета входного НДС", "url": "https://willow.law/analytics-post/fta-clarifies-supplier-verification-requirements-for-input-vat-recovery/", "source": "Willow Tax & Legal", "date": "2026-11-20", "topic": "Налоги"},
+    {"headline": "Указ № 31 от 2026 г.: DIFC — место арбитража DIAC по умолчанию, что меняется", "url": "https://habibalmulla.com/difc-by-default-not-by-destiny-what-decree-no-31-of-2026-changes-for-diac-arbitration/", "source": "Habib Al Mulla & Partners", "date": "2026-11-19", "topic": "Законодательство"},
+    {"headline": "Регулирование виртуальных активов VARA в Дубае (подкаст, сезон 4)", "url": "https://www.clydeco.com/en/insights/2026/11/virtually-everything-series-4-navigating-vara", "source": "Clyde & Co", "date": "2026-11-19", "topic": "Банковское право"},
+    {"headline": "Оман: обновление по инвестициям в здравоохранение и life sciences", "url": "https://www.tamimi.com/news/oman-healthcare-life-sciences-investment-update/", "source": "Al Tamimi & Company", "date": "2026-11-18", "topic": "Инвестиции"},
+    {"headline": "Налоги в M&A, ч. 1: налоговый due diligence и структурирование сделки до закрытия", "url": "https://hadefpartners.com/news-insights/insights/hadef-newsflash-ma-tax-series-part-1-of-3-pre-completion-tax-due-diligence-and-acquisition-structuring/", "source": "Hadef & Partners", "date": "2026-11-17", "topic": "M&A"},
+    {"headline": "Что означает руководство FTA по НДС для образовательных организаций", "url": "https://houranipartners.com/uae-education-sector-vat/", "source": "Hourani & Partners", "date": "2026-11-16", "topic": "Налоги"},
+    {"headline": "Корпоративный налог: подарок от иностранной «сестринской» компании и принцип вытянутой руки", "url": "https://willow.law/articles-post/uae-corporate-tax-case-study-a-gift-from-a-foreign-sister-company-does-the-arms-length-standard-remove-the-charge/", "source": "Willow Tax & Legal", "date": "2026-11-16", "topic": "Налоги"},
+    {"headline": "Корпоративный налог: бенефициар фонда как должностное лицо компании — связанная сторона?", "url": "https://willow.law/articles-post/uae-corporate-tax-case-study-beneficiary-as-an-officer-in-the-company-owned-by-foundation-related-party-or-connected-person/", "source": "Willow Tax & Legal", "date": "2026-11-16", "topic": "Налоги"}
+  ],
+  "new_services": [],
+  "notes": [
+    "ТЕСТОВЫЙ ВЫПУСК. Раздел «новые услуги» в тест не входил.",
+    "Не прочитаны (технически): Legal Community MENA, Orbitax, Deloitte tax@hand, Alvarez & Marsal.",
+    "Не охвачены: 13 международных юрфирм, Deloitte, EY, Crowe, Cragus, Dhruva (в общих разделах публикаций нет фильтра по ОАЭ).",
+    "Без публикаций по теме за период: The National (кроме дубля по Саудовской Аравии), Arabian Business, Gulf Business, LexisNexis ME, BSA, Galadari, Afridi & Angell, IN'P, Eptalex, KPMG, PwC, Andersen, Grant Thornton, MMJS."
+  ]
+}
